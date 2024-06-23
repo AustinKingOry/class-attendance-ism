@@ -1,0 +1,98 @@
+:root{
+	--primary-color: #0a3ca8;
+	--success-color: #069206;
+	--warning-color: #ef9c02;
+	--secondary-color: #20222a;
+	--danger-color: #c00606;
+	--default-color: #f8f8f8;
+	--font-white: #ffe;
+}
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}
+.text-white{
+	color: var(--font-white) !important;
+}
+.p-3{
+	padding: 0.6em;
+}
+.border-0{
+	border: none;
+}
+.contact-img{
+	width: 90%;
+	object-fit: contain;
+	object-position: center;
+}
+.bold{
+	font-weight: 700;
+}
+/* card styles */
+.card-primary .card-header{
+	background-color: var(--primary-color);
+	color: var(--default-color);
+}
+.card-success .card-header{
+	background-color: var(--success-color);
+	color: var(--default-color);
+}
+.card-warning .card-header{
+	background-color: var(--warning-color);
+	color: var(--default-color);
+}
+.card-danger .card-header{
+	background-color: var(--danger-color);
+	color: var(--default-color);
+}
+.card-secondary .card-header{
+	background-color: var(--secondary-color);
+	color: var(--default-color);
+}
+.card-default .card-header{
+	background-color: var(--default-color);
+	color: var(--secondary-color);
+}
+/* card outline */
+.card-primary.card-outline .card-header{
+	border-top: 3px solid var(--primary-color);
+}
+.card-success.card-outline .card-header{
+	border-top: 3px solid var(--success-color);
+}
+.card-warning.card-outline .card-header{
+	border-top: 3px solid var(--warning-color);
+}
+.card-danger.card-outline .card-header{
+	border-top: 3px solid var(--danger-color);
+}
+.card-secondary.card-outline .card-header{
+	border-top: 3px solid var(--secondary-color);
+}
+.card-default.card-outline .card-header{
+	border-top: 3px solid var(--default-color);
+}
+
+.card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+.card-header>.card-tools {
+    float: right;
+    margin-right: -0.625rem;
+}
+.card-primary .card-header .card-tools .btn{
+    color: var(--default-color) !important;
+}
+.nav-link{
+	color: var(--default-color);
+}
+.nav-link:hover{
+	color: var(--default-color);
+}
